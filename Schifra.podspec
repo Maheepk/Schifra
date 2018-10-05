@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maheep Kaushal' => 'maheepkaushal@gmail.com' }
-  s.source           = { :git => 'https://github.com/MaheepK/Schifra.git', :commit => 'bb95c37a7608f70c9e7bd3d5a9ba18f682059ea7' }
+  s.source           = { :git => 'https://github.com/MaheepK/Schifra.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '8.0'
