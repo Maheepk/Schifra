@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Schifra_Example' do
+  pod 'Schifra', :path => '../'
+
+  target 'Schifra_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
