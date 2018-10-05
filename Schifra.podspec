@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Schifra'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Schifra.'
+  s.version          = '0.1.1'
+  s.summary          = 'Schifra just make framework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Maheep Kaushal/Schifra'
+  s.homepage         = 'https://github.com/MaheepK/Schifra'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maheep Kaushal' => 'maheepkaushal@gmail.com' }
-  s.source           = { :git => 'https://github.com/Maheep Kaushal/Schifra.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MaheepK/Schifra.git', :commit => 'bb95c37a7608f70c9e7bd3d5a9ba18f682059ea7' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Schifra/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Schifra' => ['Schifra/Assets/*.png']
-  # }
+    s.requires_arc = true
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.source_files = 'Schifra/Classes/*.{h}'
+
+    s.ios.public_header_files = 'Pod/Classes/*.{h}'
+
 end

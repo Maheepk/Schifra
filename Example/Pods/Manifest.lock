@@ -1,0 +1,16 @@
+PODS:
+  - Schifra (0.1.0)
+
+DEPENDENCIES:
+  - Schifra (from `../`)
+
+EXTERNAL SOURCES:
+  Schifra:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Schifra: 2d3954512c1ed99b29c55fc4ebf8e0e4b7b4d101
+
+PODFILE CHECKSUM: 9d0977b63226871d2e5c006ca75b7a29520a920e
+
+COCOAPODS: 1.6.0.beta.1

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14B0A7963148E4749CD45CAA /* Schifra.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Schifra.podspec; path = ../Schifra.podspec; sourceTree = "<group>"; };
+		14B0A7963148E4749CD45CAA /* Schifra.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Schifra.podspec; path = ../Schifra.podspec; sourceTree = "<group>"; };
 		368982CA0B8D688A0C06EA27 /* Pods-Schifra_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schifra_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Schifra_Tests/Pods-Schifra_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Schifra_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schifra_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		753E77E0BE4FA3657CF4BBDE /* Pods_Schifra_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schifra_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		797EC9C5C4AA8A660E83D182 /* Pods-Schifra_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schifra_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Schifra_Tests/Pods-Schifra_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8816CFBC2319F5397AD7D097 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8816CFBC2319F5397AD7D097 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		92C9F2596FDBE9E4DAA4DF0A /* Pods-Schifra_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Schifra_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A615A431CBCE16A6E50C12B5 /* Pods_Schifra_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Schifra_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC7C0B54E2BCAF7E94431494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC7C0B54E2BCAF7E94431494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C936D6202025B09242F267D7 /* [CP] Embed Pods Frameworks */,
+				805FBCC74D5322C60231FED7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Maheep Kaushal";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = GWD59LL97T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -294,6 +297,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		805FBCC74D5322C60231FED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Schifra/Schifra.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Schifra.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9B92DBA87231716DE8A71EC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,24 +353,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C936D6202025B09242F267D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Schifra/Schifra.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Schifra.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,6 +492,7 @@
 			baseConfigurationReference = 92C9F2596FDBE9E4DAA4DF0A /* Pods-Schifra_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GWD59LL97T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Schifra/Schifra-Prefix.pch";
 				INFOPLIST_FILE = "Schifra/Schifra-Info.plist";
@@ -500,6 +508,7 @@
 			baseConfigurationReference = 6194F27B1D827D4E7DA816AD /* Pods-Schifra_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GWD59LL97T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Schifra/Schifra-Prefix.pch";
 				INFOPLIST_FILE = "Schifra/Schifra-Info.plist";

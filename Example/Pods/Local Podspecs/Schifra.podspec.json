@@ -1,0 +1,23 @@
+{
+  "name": "Schifra",
+  "version": "0.1.0",
+  "summary": "A short description of Schifra.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Maheep Kaushal/Schifra",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maheep Kaushal": "maheepkaushal@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MaheepK/Schifra.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Schifra/Classes/*.{h,c}",
+  "public_header_files": "Pod/Classes/*.{h,c}"
+}

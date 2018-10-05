@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290D90BC02ECB1D5649F93F50FE523C9 /* Schifra-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D311C1F046E19FDD00FB6EAFAD76C0 /* Schifra-dummy.m */; };
+		3D44E26EAB2EA4F5BD4B25B784DB3017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		648B206B58CE49811FA2A41AD3171CC2 /* shoco-bin.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FA29997E4F2397B30B6A4A75C7914EF /* shoco-bin.c */; };
+		732DF983942287977C1B3C2EB1CD2C00 /* shoco.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C6646A9D9F9A7F4204B70BA300C2D /* shoco.c */; };
+		7BF472B36113443CD39D2C5ED74D8FF3 /* shoco.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B0390E893A5232763A29ED48811D1C /* shoco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F157F97E1176BDEEB99DF3D2735EA8B /* Schifra-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F49C6034E0B12A2193C1F302EB7666D /* Schifra-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B376569CBCFFD6326162D387D1BB8697 /* Pods-Schifra_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0EE83309E04E239ED6ED42050BFBFE /* Pods-Schifra_Tests-dummy.m */; };
+		B64850B1B69AD887B8D21F3468E4B941 /* Pods-Schifra_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEFD24D5D14AD62893A64641FF997E6 /* Pods-Schifra_Example-dummy.m */; };
+		CE85542B5BE395CCDC6465EAC1324D40 /* shoco_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C33316C07FBC8B19E318152E8C5F0D /* shoco_table.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57192B7279F0D67864BF4E4F4AE99D0 /* Pods-Schifra_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A08E1AC85F45E896397700AA629B153E /* Pods-Schifra_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBEDEE4BD4B8D4382DBD874502AEE516 /* Pods-Schifra_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6E59E18CB9FF89C45997F75CC73DE5 /* Pods-Schifra_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE20F3868E1FFC4CDA76546826E78E16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E5710E6B904A0C618E4A9E01500B8EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F21A80C16629948519BFECDAEC0A0F75 /* shoco_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 9781C6E7477C11FA5F7F4893EF4FCA95 /* shoco_model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B31C5D171CF8C1D05869423DC7C81B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F090D5DC0483302FA31FE2D265A167;
+			remoteInfo = Schifra;
+		};
+		94814E0F2BEE82E883FB4005C4B1B8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B55D9339CAAC1109D04050C1B096F6;
+			remoteInfo = "Pods-Schifra_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027C18206449458838F1B080FA1AC027 /* Pods-Schifra_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Schifra_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		04B0390E893A5232763A29ED48811D1C /* shoco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shoco.h; path = Schifra/Classes/shoco.h; sourceTree = "<group>"; };
+		0BEFD24D5D14AD62893A64641FF997E6 /* Pods-Schifra_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Schifra_Example-dummy.m"; sourceTree = "<group>"; };
+		0DAC046F1B8D0A28EF2DD6578CABE37B /* Pods_Schifra_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Schifra_Example.framework; path = "Pods-Schifra_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F91C5EBD03AF8DC7C0668DF761DEE9C /* Pods-Schifra_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Schifra_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1079BA76028497B92C51C4BF6D2C996D /* Schifra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Schifra.modulemap; sourceTree = "<group>"; };
+		1A1061E0939BFBDF1194E0FBACEFD4A9 /* Pods-Schifra_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Schifra_Tests-Info.plist"; sourceTree = "<group>"; };
+		1A53A84F57CD40253C23E7BA580820BA /* Pods-Schifra_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Schifra_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1C1E080CFC1F8F9BB024179F9AC2C7ED /* Schifra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Schifra.framework; path = Schifra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21089F2CDD092041CCA5FECC70AA38C0 /* Pods-Schifra_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Schifra_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		239E464DE8799C0BC20384F9968E113D /* Pods-Schifra_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Schifra_Tests.modulemap"; sourceTree = "<group>"; };
+		3C83B3D8E8FE3FD45C3C21FC1ED0B9EE /* Schifra.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Schifra.xcconfig; sourceTree = "<group>"; };
+		3F49C6034E0B12A2193C1F302EB7666D /* Schifra-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Schifra-umbrella.h"; sourceTree = "<group>"; };
+		56A27BE029FB64E01426BE5AF6BF88E4 /* Pods-Schifra_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Schifra_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66DD816ABE29F7BE97FE6998C27BA409 /* Schifra.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Schifra.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A0C6646A9D9F9A7F4204B70BA300C2D /* shoco.c */ = {isa = PBXFileReference; includeInIndex = 1; name = shoco.c; path = Schifra/Classes/shoco.c; sourceTree = "<group>"; };
+		6A8E608EC907A4B226A9B954BAED0862 /* Schifra-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Schifra-prefix.pch"; sourceTree = "<group>"; };
+		6B6E59E18CB9FF89C45997F75CC73DE5 /* Pods-Schifra_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Schifra_Example-umbrella.h"; sourceTree = "<group>"; };
+		72C33316C07FBC8B19E318152E8C5F0D /* shoco_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shoco_table.h; path = Schifra/Classes/shoco_table.h; sourceTree = "<group>"; };
+		75954DADEB376D5759507BE32DCDFD9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		829D1C7175695F567E7548729BBC2411 /* Pods-Schifra_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Schifra_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B91C5B9D7F85B12A8DABBE57CD77A4F /* Pods-Schifra_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Schifra_Example-Info.plist"; sourceTree = "<group>"; };
+		8FA29997E4F2397B30B6A4A75C7914EF /* shoco-bin.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "shoco-bin.c"; path = "Schifra/Classes/shoco-bin.c"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943FC78D99B3C3DF1734AABA68EC1F16 /* Pods-Schifra_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Schifra_Example.modulemap"; sourceTree = "<group>"; };
+		9781C6E7477C11FA5F7F4893EF4FCA95 /* shoco_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shoco_model.h; path = Schifra/Classes/shoco_model.h; sourceTree = "<group>"; };
+		9D4A05C332C7F5BEE1897324541B80A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A08E1AC85F45E896397700AA629B153E /* Pods-Schifra_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Schifra_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CAB5F49309D8C9E4057BFB550A3BC1AC /* Pods_Schifra_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Schifra_Tests.framework; path = "Pods-Schifra_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0EE83309E04E239ED6ED42050BFBFE /* Pods-Schifra_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Schifra_Tests-dummy.m"; sourceTree = "<group>"; };
+		D4CE9D2D4FD1929ACD37AE197386168B /* Pods-Schifra_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Schifra_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E617A422F33750D0370B0A60FF1B2725 /* Pods-Schifra_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Schifra_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E812A0D710ED99E4D1C7D25ADE634366 /* Pods-Schifra_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Schifra_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F414D243A32DF5B55C8B46CA5A995826 /* Schifra-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Schifra-Info.plist"; sourceTree = "<group>"; };
+		F9D311C1F046E19FDD00FB6EAFAD76C0 /* Schifra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Schifra-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B436CC5A48F7B8571EF2369F68C2896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE20F3868E1FFC4CDA76546826E78E16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9781A0F8BAAF614C8C6D9C8B01D31281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D44E26EAB2EA4F5BD4B25B784DB3017 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD72C2EA3623A40FB1A2C7F3D0210FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5710E6B904A0C618E4A9E01500B8EDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7746E05A255CFB277AD2C0D578BB09 /* Schifra */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C6646A9D9F9A7F4204B70BA300C2D /* shoco.c */,
+				04B0390E893A5232763A29ED48811D1C /* shoco.h */,
+				8FA29997E4F2397B30B6A4A75C7914EF /* shoco-bin.c */,
+				9781C6E7477C11FA5F7F4893EF4FCA95 /* shoco_model.h */,
+				72C33316C07FBC8B19E318152E8C5F0D /* shoco_table.h */,
+				CB3F3C3DFB0429AE78092D2BE0DAABB0 /* Pod */,
+				3224488ED71A2C249D18B22795584BE7 /* Support Files */,
+			);
+			name = Schifra;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1DD0D57BE56556A93A9BF53F6357AD14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DAC046F1B8D0A28EF2DD6578CABE37B /* Pods_Schifra_Example.framework */,
+				CAB5F49309D8C9E4057BFB550A3BC1AC /* Pods_Schifra_Tests.framework */,
+				1C1E080CFC1F8F9BB024179F9AC2C7ED /* Schifra.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3224488ED71A2C249D18B22795584BE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1079BA76028497B92C51C4BF6D2C996D /* Schifra.modulemap */,
+				3C83B3D8E8FE3FD45C3C21FC1ED0B9EE /* Schifra.xcconfig */,
+				F9D311C1F046E19FDD00FB6EAFAD76C0 /* Schifra-dummy.m */,
+				F414D243A32DF5B55C8B46CA5A995826 /* Schifra-Info.plist */,
+				6A8E608EC907A4B226A9B954BAED0862 /* Schifra-prefix.pch */,
+				3F49C6034E0B12A2193C1F302EB7666D /* Schifra-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Schifra";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				93DF24DAD350C5CCAB14E5E56F55AA30 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1DD0D57BE56556A93A9BF53F6357AD14 /* Products */,
+				9EBA66F696BE632D824F18FB67D6BA71 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93DF24DAD350C5CCAB14E5E56F55AA30 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7746E05A255CFB277AD2C0D578BB09 /* Schifra */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9EBA66F696BE632D824F18FB67D6BA71 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA362FA1F45F354ACCC4E3A7F8101B /* Pods-Schifra_Example */,
+				BC118060A2AE1246DC32ABD95E9110F7 /* Pods-Schifra_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6AA362FA1F45F354ACCC4E3A7F8101B /* Pods-Schifra_Example */ = {
+			isa = PBXGroup;
+			children = (
+				943FC78D99B3C3DF1734AABA68EC1F16 /* Pods-Schifra_Example.modulemap */,
+				E617A422F33750D0370B0A60FF1B2725 /* Pods-Schifra_Example-acknowledgements.markdown */,
+				027C18206449458838F1B080FA1AC027 /* Pods-Schifra_Example-acknowledgements.plist */,
+				0BEFD24D5D14AD62893A64641FF997E6 /* Pods-Schifra_Example-dummy.m */,
+				1A53A84F57CD40253C23E7BA580820BA /* Pods-Schifra_Example-frameworks.sh */,
+				8B91C5B9D7F85B12A8DABBE57CD77A4F /* Pods-Schifra_Example-Info.plist */,
+				6B6E59E18CB9FF89C45997F75CC73DE5 /* Pods-Schifra_Example-umbrella.h */,
+				E812A0D710ED99E4D1C7D25ADE634366 /* Pods-Schifra_Example.debug.xcconfig */,
+				0F91C5EBD03AF8DC7C0668DF761DEE9C /* Pods-Schifra_Example.release.xcconfig */,
+			);
+			name = "Pods-Schifra_Example";
+			path = "Target Support Files/Pods-Schifra_Example";
+			sourceTree = "<group>";
+		};
+		BC118060A2AE1246DC32ABD95E9110F7 /* Pods-Schifra_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				239E464DE8799C0BC20384F9968E113D /* Pods-Schifra_Tests.modulemap */,
+				D4CE9D2D4FD1929ACD37AE197386168B /* Pods-Schifra_Tests-acknowledgements.markdown */,
+				21089F2CDD092041CCA5FECC70AA38C0 /* Pods-Schifra_Tests-acknowledgements.plist */,
+				CB0EE83309E04E239ED6ED42050BFBFE /* Pods-Schifra_Tests-dummy.m */,
+				1A1061E0939BFBDF1194E0FBACEFD4A9 /* Pods-Schifra_Tests-Info.plist */,
+				A08E1AC85F45E896397700AA629B153E /* Pods-Schifra_Tests-umbrella.h */,
+				829D1C7175695F567E7548729BBC2411 /* Pods-Schifra_Tests.debug.xcconfig */,
+				56A27BE029FB64E01426BE5AF6BF88E4 /* Pods-Schifra_Tests.release.xcconfig */,
+			);
+			name = "Pods-Schifra_Tests";
+			path = "Target Support Files/Pods-Schifra_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB3F3C3DFB0429AE78092D2BE0DAABB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				75954DADEB376D5759507BE32DCDFD9E /* LICENSE */,
+				9D4A05C332C7F5BEE1897324541B80A6 /* README.md */,
+				66DD816ABE29F7BE97FE6998C27BA409 /* Schifra.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EFA8CC5A16C77A0EC9D4E6B0AF47224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F157F97E1176BDEEB99DF3D2735EA8B /* Schifra-umbrella.h in Headers */,
+				7BF472B36113443CD39D2C5ED74D8FF3 /* shoco.h in Headers */,
+				F21A80C16629948519BFECDAEC0A0F75 /* shoco_model.h in Headers */,
+				CE85542B5BE395CCDC6465EAC1324D40 /* shoco_table.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB0E62ADB33E7D58D5B28CF4E52EE5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57192B7279F0D67864BF4E4F4AE99D0 /* Pods-Schifra_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78094F1756804A33949268EB2198929 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEDEE4BD4B8D4382DBD874502AEE516 /* Pods-Schifra_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06B55D9339CAAC1109D04050C1B096F6 /* Pods-Schifra_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCC5AAE9120A9655A62064C1ACC307A /* Build configuration list for PBXNativeTarget "Pods-Schifra_Example" */;
+			buildPhases = (
+				F78094F1756804A33949268EB2198929 /* Headers */,
+				BBE1CD3E853794B06CC4FCBB02656A62 /* Sources */,
+				9781A0F8BAAF614C8C6D9C8B01D31281 /* Frameworks */,
+				A2B43E92E61324E41843E026DFC6ACA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D2EC0101D9492BECD99E35D47CA40B /* PBXTargetDependency */,
+			);
+			name = "Pods-Schifra_Example";
+			productName = "Pods-Schifra_Example";
+			productReference = 0DAC046F1B8D0A28EF2DD6578CABE37B /* Pods_Schifra_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		736091B93625377A27B502D59662671F /* Pods-Schifra_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA7B71DD574C0C280976F3B0FBADE435 /* Build configuration list for PBXNativeTarget "Pods-Schifra_Tests" */;
+			buildPhases = (
+				BBB0E62ADB33E7D58D5B28CF4E52EE5B /* Headers */,
+				5E216C704A675AA6AB53FC032444FB64 /* Sources */,
+				BD72C2EA3623A40FB1A2C7F3D0210FD0 /* Frameworks */,
+				893717B2B078DBDB82F5185A4B0919CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4604E817C3BC37B6B09D93F98A7E7FF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Schifra_Tests";
+			productName = "Pods-Schifra_Tests";
+			productReference = CAB5F49309D8C9E4057BFB550A3BC1AC /* Pods_Schifra_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7F090D5DC0483302FA31FE2D265A167 /* Schifra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596CA5472634A40BAA7D90BEF185726F /* Build configuration list for PBXNativeTarget "Schifra" */;
+			buildPhases = (
+				4EFA8CC5A16C77A0EC9D4E6B0AF47224 /* Headers */,
+				26974AA158E69590C3C4F363ADAE2EEE /* Sources */,
+				6B436CC5A48F7B8571EF2369F68C2896 /* Frameworks */,
+				DEC748103851AF087F2A01DC56C9F91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schifra;
+			productName = Schifra;
+			productReference = 1C1E080CFC1F8F9BB024179F9AC2C7ED /* Schifra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1DD0D57BE56556A93A9BF53F6357AD14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06B55D9339CAAC1109D04050C1B096F6 /* Pods-Schifra_Example */,
+				736091B93625377A27B502D59662671F /* Pods-Schifra_Tests */,
+				C7F090D5DC0483302FA31FE2D265A167 /* Schifra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893717B2B078DBDB82F5185A4B0919CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B43E92E61324E41843E026DFC6ACA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC748103851AF087F2A01DC56C9F91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26974AA158E69590C3C4F363ADAE2EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290D90BC02ECB1D5649F93F50FE523C9 /* Schifra-dummy.m in Sources */,
+				648B206B58CE49811FA2A41AD3171CC2 /* shoco-bin.c in Sources */,
+				732DF983942287977C1B3C2EB1CD2C00 /* shoco.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E216C704A675AA6AB53FC032444FB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B376569CBCFFD6326162D387D1BB8697 /* Pods-Schifra_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE1CD3E853794B06CC4FCBB02656A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64850B1B69AD887B8D21F3468E4B941 /* Pods-Schifra_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4604E817C3BC37B6B09D93F98A7E7FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Schifra_Example";
+			target = 06B55D9339CAAC1109D04050C1B096F6 /* Pods-Schifra_Example */;
+			targetProxy = 94814E0F2BEE82E883FB4005C4B1B8E6 /* PBXContainerItemProxy */;
+		};
+		94D2EC0101D9492BECD99E35D47CA40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Schifra;
+			target = C7F090D5DC0483302FA31FE2D265A167 /* Schifra */;
+			targetProxy = 4B31C5D171CF8C1D05869423DC7C81B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E733F9CE13BFEB3448F3DDCC0577265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829D1C7175695F567E7548729BBC2411 /* Pods-Schifra_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Schifra_Tests/Pods-Schifra_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Schifra_Tests/Pods-Schifra_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		481226986ED20FA955951F8774BCDD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C83B3D8E8FE3FD45C3C21FC1ED0B9EE /* Schifra.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Schifra/Schifra-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Schifra/Schifra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Schifra/Schifra.modulemap";
+				PRODUCT_MODULE_NAME = Schifra;
+				PRODUCT_NAME = Schifra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		545C8F9F4F07B79B6A0B26C6DBFC5ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E812A0D710ED99E4D1C7D25ADE634366 /* Pods-Schifra_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		884D7AFBDA9AB8D1FE1BD25E29737F97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A27BE029FB64E01426BE5AF6BF88E4 /* Pods-Schifra_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Schifra_Tests/Pods-Schifra_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Schifra_Tests/Pods-Schifra_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9557B1D99E1DF74D03B8077376EAC196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F91C5EBD03AF8DC7C0668DF761DEE9C /* Pods-Schifra_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Schifra_Example/Pods-Schifra_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D498BEDE99A5798BDF6B9D076ECD751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C83B3D8E8FE3FD45C3C21FC1ED0B9EE /* Schifra.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Schifra/Schifra-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Schifra/Schifra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Schifra/Schifra.modulemap";
+				PRODUCT_MODULE_NAME = Schifra;
+				PRODUCT_NAME = Schifra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596CA5472634A40BAA7D90BEF185726F /* Build configuration list for PBXNativeTarget "Schifra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481226986ED20FA955951F8774BCDD04 /* Debug */,
+				9D498BEDE99A5798BDF6B9D076ECD751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCC5AAE9120A9655A62064C1ACC307A /* Build configuration list for PBXNativeTarget "Pods-Schifra_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545C8F9F4F07B79B6A0B26C6DBFC5ECB /* Debug */,
+				9557B1D99E1DF74D03B8077376EAC196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA7B71DD574C0C280976F3B0FBADE435 /* Build configuration list for PBXNativeTarget "Pods-Schifra_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E733F9CE13BFEB3448F3DDCC0577265 /* Debug */,
+				884D7AFBDA9AB8D1FE1BD25E29737F97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

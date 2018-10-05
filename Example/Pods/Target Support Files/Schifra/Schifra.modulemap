@@ -1,0 +1,6 @@
+framework module Schifra {
+  umbrella header "Schifra-umbrella.h"
+
+  export *
+  module * { export * }
+}
