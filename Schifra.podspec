@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Schifra'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Schifra just make framework'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,8 @@ TODO: Add long description of the pod here.
 
     s.requires_arc = true
 
-    s.source_files = 'Schifra/Classes/*.{h,c,js}'
+    s.source_files = 'Schifra/Classes/*.{h,c}'
+    s.compiler_flags = '-lObjc'
 
     s.ios.public_header_files = 'Pod/Classes/*.{h}'
 
