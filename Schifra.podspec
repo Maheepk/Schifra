@@ -32,9 +32,11 @@ TODO: Add long description of the pod here.
 
     s.requires_arc = true
 
-    s.source_files = 'Schifra/Classes/*.{h,c}'
-    s.compiler_flags = '-lObjc'
+    s.source_files = 'Schifra/Classes/*.{h}', 'Schifra/Classes/*.{c}'
 
-    s.ios.public_header_files = 'Pod/Classes/*.{h}'
+# s.pod_target_xcconfig = {'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/Schifra/Classes/**','LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Schifra/'}
+# s.libraries = 'z'
+
+    s.ios.public_header_files = 'Schifra/Classes/shoco.h'
 
 end
